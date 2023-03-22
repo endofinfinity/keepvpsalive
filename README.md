@@ -1,5 +1,7 @@
 
-## keep oracle vps alive 甲骨文保活脚本
+# keep oracle vps alive 甲骨文保活脚本
+
+#### 个人备份，以防丢失，参考原链接  `https://www.ioiox.com/archives/165.html`
 
 ### 选择个根目录/或者家目录home
 ### 创建 keeporaclealive 目录并新建 docker-compose.yml 文件，复制以下配置文件。
