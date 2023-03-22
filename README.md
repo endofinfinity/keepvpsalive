@@ -17,14 +17,15 @@ restart: always
 ```
 ### 启动关闭手动测试
 ### 启动，如报错没有docker，根据提示安装即可
-`docker-compose up -d`
+```docker-compose up -d```
 ### 停止
-`docker-compose down`
+```docker-compose down```
 
 
 
 ### 利用crontab定时运行，添加以下两条记录，注意修改相应的语句
-`crontab -e`
+```crontab -e```
+
 ```
 1，11，21，31，41，51 * * * * cd /home（自己的目录）/keeporaclealive && /usr/local（ubuntu可用，centos要修改）/bin/docker-compose up -d
 2，12，22，32，42，52 * * * * cd /home（自己的目录）/keeporaclealive && /usr/local（ubuntu可用，centos要修改）/bin/docker-compose down
